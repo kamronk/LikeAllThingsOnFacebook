@@ -2,7 +2,7 @@ javascript:
 var listOfLikeButtons = document.querySelectorAll('.UFILikeLink');
 var numOfItems = listOfLikeButtons.length;
 var currentOne = 0;
-var timedEvent = setInterval(clickIt, 3000);
+var timedEvent = setInterval(clickIt, 1000);
 function clickIt(){
 	item = listOfLikeButtons[currentOne];
 	currentOne++;
